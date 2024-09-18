@@ -1,0 +1,22 @@
+2023-02-08 18:14:19 | INFO: 0) Unpack information from JSON
+2023-02-08 18:14:19 | INFO: 1) Instantiate and Configure Agent
+2023-02-08 18:14:19 | INFO: 2) Run Agent
+
+-- Input data:
+{}
+
+-- Arguments:
+{'execution': '/shared_data/userdata/user_1/run000', 'project': 'example', 'description': 'test', 'argument_name': 'Random String'}
+
+-- CWD:
+/shared_data/userdata/user_1/run000
+
+-- Expected output is:
+my_demo_outfile.txt
+
+-- Starting the Demo pipeline
+['bash', '/home/my_demo_pipeline.sh', 'my_demo_outfile.txt']
+2023-02-08 18:14:19 | PROGRESS: The execution finished successfully - FINISHED
+2023-02-08 18:14:19 | INFO: 3) Create information
+2023-02-08 18:14:19 | INFO: 4) Pack information to JSON
+2023-02-08 18:14:19 | PROGRESS: <myAgent> agent successfully executed; see /shared_data/userdata/user_1/run000/out_metadata.json
