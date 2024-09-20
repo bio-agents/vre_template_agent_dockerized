@@ -1,17 +1,3 @@
-{
-  "output_files": [
-    {
-      "name": "my_demo_outfile",
-      "type": "file",
-      "file_path": "my_demo_outfile.txt",
-      "data_type": "sample_information_file",
-      "file_type": "TXT",
-      "sources": [],
-      "meta_data": {
-        "visible": true,
-        "agent": "demo_agent",
-        "description": "Demo TXT output file."
-      }
-    }
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:820dda4008fc17e2e3000f3f2cee0f9164e53869160f90d021bb8bffdbb106b6
+size 361
